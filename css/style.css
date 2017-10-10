@@ -1,0 +1,196 @@
+.body
+{
+    padding-top: 70px;
+}
+
+.mainBox
+{
+   background-color: rgba(35, 36, 41, 1);
+    color: white;
+  
+}
+
+/**  using to make the container over the navbar*/
+.top
+{
+  margin-top: 75px;  
+}
+
+.img-margin{
+    margin-top: 55px;
+}
+
+
+/*******  Start Overriding Bootstrap  *********/
+/* Main Navbar */
+.navbar
+{
+    min-height: 70px;
+}
+
+/* active link */
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus
+{
+    background-color:blue
+}
+
+
+/* navbar link */
+.navbar-inverse .navbar-nav > li > a
+{
+    color: #BBB;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 16px;
+}
+
+/* brand link */
+.navbar-inverse .navbar-brand
+{
+    color: #BBB;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.navbar-inverse .navbar-brand span
+{
+    color: blue
+}
+
+.dropdown-menu
+{
+    background-color: #333;
+    border-top: 5px solid blue;
+    min-width: 200px;
+}
+
+.dropdown-menu > li > a
+{
+    color: aliceblue;
+    padding: 6px 20px;
+    -webkit-transition: padding 0.5s ease;
+    -moz-transition: padding 0.5s ease;
+    -o-transition: padding 0.5s ease;
+    transition: padding 0.5s ease;
+    
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus
+{
+     background-color:blue;
+     color: aliceblue;
+     padding-left: 25px;
+}
+
+.dropdown-menu .divider
+{
+    background-color:blue;
+    min-height: 3px;
+}
+
+.navbar-right .dropdown-menu
+{
+    left: 0;
+    right: auto;
+}
+
+.navbar-toggle
+{
+    margin-top: 18px;
+}
+
+
+/*  carousel */
+.carousel-caption
+{
+    bottom: 80px;
+    background: rgba(3,3,3,0.3);
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.carousel-indicators .active
+{
+    height: 18px;
+    width: 18px;
+    background: blue;
+}
+
+.carousel-indicators
+{
+    bottom: 0
+}
+.carousel-indicators li
+{
+    height: 15px;
+    width: 15px;
+    
+}
+
+
+/*******  End Overriding Bootstrap  *********/
+
+/* start section about**/
+
+.about
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about .lead
+{
+    color:#888;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.about h1
+{
+    font-weight: bold;
+}
+.about h1 span
+{
+    color:blue;
+}
+
+/* End section about**/
+
+
+/* start section Features **/
+.features
+{
+    background: #EEE;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.features h1
+{
+    margin-bottom: 40px;
+}
+
+.features .fea 
+{
+  margin-bottom: 30px;
+  
+}
+.features .fea p
+{
+  line-height: 2em;
+  
+}
+
+.features .fea span.glyphicon
+{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color:blue;
+}
+
+
+
+/* End section Features **/
